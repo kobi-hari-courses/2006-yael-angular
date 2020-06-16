@@ -10,3 +10,6 @@ var Person = /** @class */ (function () {
 }());
 var p = new Person('John', 'Smith');
 p.log();
+var ar = [2, 4, 6];
+ar.push(5, 8, 10);
+console.log(ar);
