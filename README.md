@@ -9,7 +9,7 @@ and also - through `Whatsapp`
 * [Module 02 - Typescript and Introduction to Angular](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-02-Typescript-Intro-to-Angular)
 
 # Home Work
-* After Module 02 - Get familiar with angular development environment
+## After Module 02 - Get familiar with angular development environment 
     - Install NodeJS, VS Code
     - Use npm to install the Angular CLI (see the angular CLI web site for help)
     - Create a new angular application using the cli `ng new` command
