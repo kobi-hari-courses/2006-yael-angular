@@ -1,0 +1,16 @@
+<input 
+  #searchBox type="text" 
+  (input)="setKeyword(searchBox.value)"
+  [disabled]="isBusy"
+  >
+<button 
+  (click)="search()"
+  [disabled]="isBusy"
+  >Go</button>
+<img 
+    *ngIf="isBusy"
+    src="https://voyager-travel.com/wp-content/themes/traveler/img/loading-filter-ajax.gif"
+    >
+<ul>
+  <li *ngFor="let res of results">{{res}}</li>
+</ul>
