@@ -28,7 +28,7 @@ export class AppComponent {
         currentWord + ' 3'
       ];
       this.isBusy = false;
-    }, 4000);
+    }, 5000);
 
 
 
