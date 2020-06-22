@@ -19,3 +19,10 @@ and also - through `Whatsapp`
     - Open VS-Code in the project folder, and run `ng serve` in a terminal
     - Modify the App Component like in the example done in class, to create a search application
     
+# Extras
+- Grid Grarden - A game to learn CSS Grid: [Here](https://flexboxfroggy.com/)
+- Flex Froggy - A game to learn CSS Flex: [Here](https://cssgridgarden.com/)
+- The Complete Guide to CSS Grid on [CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- The Complete Guide to CSS Flex on [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+
