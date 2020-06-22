@@ -8,6 +8,9 @@ and also - through `Whatsapp`
 * [Module 01 - JavaScript and NodeJS](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-01-JS-and-NodeJS)
 * [Module 02 - Typescript and Introduction to Angular](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-02-Typescript-Intro-to-Angular)
 
+# Class Exercises
+* [Exercise 1 - Pop Quiz](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Exercise-1---Pop-Quiz)
+
 # Home Work
 ## After Module 02 - Get familiar with angular development environment 
     - Install NodeJS, VS Code
