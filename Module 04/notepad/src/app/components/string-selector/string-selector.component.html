@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let item of options"
+         [class.nivchar]="item === selected"
+         (click)="whenClick(item)"
+         >
+         {{item}}
+        </li>
+</ul>

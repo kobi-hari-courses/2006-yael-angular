@@ -1,0 +1,10 @@
+<div class="header-area">
+    <button (click)="toggle()">
+        <span *ngIf="!isExpanded">+</span>
+        <span *ngIf="isExpanded">-</span>
+    </button>
+    <ng-content select="[toggle-title]"></ng-content>
+</div>
+<div *ngIf="isExpanded">
+    <ng-content></ng-content>
+</div>

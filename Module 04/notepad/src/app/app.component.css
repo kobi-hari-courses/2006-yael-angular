@@ -1,0 +1,18 @@
+:host {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
+}
+
+.title-area {
+    grid-column: 1 / -1;
+}
+
+.colors-area, .fonts-area, .sizes-area {
+    display: grid;
+}
+
+.text-area {
+    grid-column: 1 / -1;
+    display: grid;
+}
