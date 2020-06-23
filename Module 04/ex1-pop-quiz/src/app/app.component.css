@@ -1,0 +1,73 @@
+:host {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.question-area {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.choice-area {
+    display: grid;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;    
+}
+
+li:hover {
+    background: lightgray;
+}
+
+
+li.answered {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+
+li.correct.answered {
+    background: lime;
+}
+
+li.wrong.selected.answered {
+    background: red;
+}
+
+
+.status-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 6px;
+    background: rgb(217, 217, 233);
+
+}
+
+
+.status-area .correct {
+    color: green;
+}
+
+.status-area .wrong {
+    color: red;
+}

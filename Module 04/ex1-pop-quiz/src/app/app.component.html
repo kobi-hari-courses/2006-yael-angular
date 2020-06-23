@@ -1,0 +1,23 @@
+<div class="question-area">
+  {{question}}
+</div>
+
+<div class="choice-area">
+  <ul>
+    <li *ngFor="let choice of choices"
+        [class.answered]="wasAnswered"
+        [class.not-answered]="!wasAnswered"
+        [class.correct]="choice===correctAnswer"
+        [class.wrong]="choice!==correctAnswer"
+        [class.selected]="choice===selectedAnswer"
+        (click)="chooseAnswer(choice)"  
+      >{{choice}}</li>
+  </ul>
+</div>
+
+<div class="status-area">
+  <span class="correct" *ngIf="isCorrect === true" >Corrent</span>
+  <span class="wrong" *ngIf="isCorrect === false" >Wrong</span>
+
+  <button *ngIf="wasAnswered" (click)="reset()">Reset</button>
+</div>
