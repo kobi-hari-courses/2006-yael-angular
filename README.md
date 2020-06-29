@@ -7,17 +7,15 @@ and also - through `Whatsapp`
 # Daily Summaries
 * [Module 01 - JavaScript and NodeJS](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-01-JS-and-NodeJS)
 * [Module 02 - Typescript and Introduction to Angular](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-02-Typescript-Intro-to-Angular)
+* [Module 03 - Angular Basics](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-03-Angular-Basics)
+* [Module 04 - Components](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-04-Components)
 
 # Class Exercises
 * [Exercise 1 - Pop Quiz](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Exercise-1---Pop-Quiz)
 
-# Home Work
-## After Module 02 - Get familiar with angular development environment 
-    - Install NodeJS, VS Code
-    - Use npm to install the Angular CLI (see the angular CLI web site for help)
-    - Create a new angular application using the cli `ng new` command
-    - Open VS-Code in the project folder, and run `ng serve` in a terminal
-    - Modify the App Component like in the example done in class, to create a search application
+# Home Exercises
+* [Exercise 1 - Description](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
+* [Exercise 1 - Video Solution](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
     
 # Extras
 - Grid Grarden - A game to learn CSS Grid: [Here](https://flexboxfroggy.com/)
