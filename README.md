@@ -9,6 +9,8 @@ and also - through `Whatsapp`
 * [Module 02 - Typescript and Introduction to Angular](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-02-Typescript-Intro-to-Angular)
 * [Module 03 - Angular Basics](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-03-Angular-Basics)
 * [Module 04 - Components](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-04-Components)
+* [Module 05 - DI and Promises](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-05-Dependency-Injection-and-Promises)
+* [Module 06 - Promises and RxJS](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-06-Promises-and-RxJS-part-1)
 
 # Class Exercises
 * [Exercise 1 - Pop Quiz](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Exercise-1---Pop-Quiz)
@@ -18,9 +20,11 @@ and also - through `Whatsapp`
 * [Exercise 1 - Video Solution](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
     
 # Extras
-- Grid Grarden - A game to learn CSS Grid: [Here](https://flexboxfroggy.com/)
-- Flex Froggy - A game to learn CSS Flex: [Here](https://cssgridgarden.com/)
+- Grid Grarden - A game to learn CSS Flex: [Here](https://flexboxfroggy.com/)
+- Flex Froggy - A game to learn CSS Grid: [Here](https://cssgridgarden.com/)
 - The Complete Guide to CSS Grid on [CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - The Complete Guide to CSS Flex on [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- The RxJS documentation [RxJS](https://rxjs-dev.firebaseapp.com/)
+
 
 
