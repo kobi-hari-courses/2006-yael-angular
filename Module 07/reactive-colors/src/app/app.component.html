@@ -1,0 +1,11 @@
+<input #searchBox type="search" (input)="onInput(searchBox.value)">
+<img 
+    *ngIf="isBusy$ | async"
+    src="https://miro.medium.com/max/1600/1*LLmBc9MiJZthEmPRBc11hQ.gif">
+<div>
+    <div *ngFor="let color of (colors$ | async)"
+        [style.background-color]="color.code"
+    >
+        {{color.displayName}}
+    </div>
+</div>

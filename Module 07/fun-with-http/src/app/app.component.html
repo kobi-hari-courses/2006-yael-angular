@@ -1,0 +1,8 @@
+<button (click)="loadShows()">Get All Shows</button>
+
+<div class="list">
+  <div *ngFor="let show of shows" class="item">
+    <h1>{{show.name}}</h1>
+    <img [src]="show.image.original">
+  </div>
+</div>
