@@ -1,0 +1,10 @@
+<nav>
+    <div routerLinkActive="active-link"><a routerLink="home">Home</a></div>
+    <div routerLinkActive="active-link"><a routerLink="movies">Movies</a></div>  
+    <div routerLinkActive="active-link"><a routerLink="account">Account</a></div>
+    <div class="seperator"></div>
+    <div>
+      <span *ngIf="(isLoggedIn$ | async)">Logged In</span>
+      <span *ngIf="!(isLoggedIn$ | async)">Logged Out</span>
+    </div>  </nav>
+<router-outlet></router-outlet>
