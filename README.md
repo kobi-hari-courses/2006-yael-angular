@@ -16,7 +16,7 @@ and also - through `Whatsapp`
 
 # Emphasize Videos
 These Videos repeat several chapters of the course, you can use them to reinforce you understanding of the topics
-* [Day 3 - Introduction to Observables, Subjects and reactive services](https://www.dropbox.com/s/05vsshf61oh5p1y/Reactive%20X.mp4?dl=0)
+* [Module 06 - Introduction to Observables, Subjects and reactive services](https://www.dropbox.com/s/05vsshf61oh5p1y/Reactive%20X.mp4?dl=0)
 
 # Class Exercises
 * [Exercise 1 - Pop Quiz](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Exercise-1---Pop-Quiz)
