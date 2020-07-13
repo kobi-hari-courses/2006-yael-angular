@@ -1,0 +1,54 @@
+.field {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.field input, .field textarea {
+    outline: transparent;
+    border: 1px solid gray;
+    transition: 1s;
+}
+
+@keyframes rotate {
+    0% {
+       transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.field input.ng-pending+div.please-wait:after {
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid lightseagreen;
+    border-bottom: 2px solid transparent;
+    animation: rotate 2s infinite;
+}
+
+.field input:focus, .field textarea:focus {
+    outline: transparent;
+    border-radius: 20px;
+}
+
+
+.field label {
+    font-size: 12px;
+}
+
+.field input.ng-invalid.ng-touched, .field textarea.ng-invalid.ng-touched {
+    border: 1px solid red;
+    color: red;
+}
+
+.errors {
+    color: red;
+    font-size: 12px;
+    font-family: consolas;
+}

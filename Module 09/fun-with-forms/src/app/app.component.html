@@ -1,0 +1,84 @@
+<div [formGroup]="group">
+  <div class="field">
+    <label>Username</label>
+    <input type="text" formControlName="username">
+    <div class="please-wait"></div>
+    <ng-container *ngIf="group.get('username') as ctrl">
+      <ng-container *ngIf="ctrl.errors as errors">
+          <div class="errors" *ngIf="ctrl.touched">
+            <div *ngIf="errors['required'] as err">Required</div>
+            <div *ngIf="errors['minLength'] as err">Not long enough </div>
+            <div *ngIf="errors['minWords'] as err">words: {{err.actualWords}}/{{err.requiredWords}}</div>
+            <div *ngIf="errors['userAvailable'] as err">username not available</div>
+          </div>
+      </ng-container>
+    </ng-container>
+  </div>
+
+  <div class="field">
+    <label>Email</label>
+    <input type="text" formControlName="email">
+  </div>
+
+  <div class="field">
+    <label>Full Name</label>
+    <input type="text" formControlName="fullname">
+    <ng-container *ngIf="group.get('fullname') as ctrl">
+      <ng-container *ngIf="ctrl.errors as errors">
+          <div class="errors" *ngIf="ctrl.touched">
+            <div *ngIf="errors['required'] as err">Required</div>
+            <div *ngIf="errors['minLength'] as err">Not long enough </div>
+            <div *ngIf="errors['minWords'] as err">words: {{err.actualWords}}/{{err.requiredWords}}</div>
+          </div>
+      </ng-container>
+    </ng-container>
+  </div>
+
+  <div class="field">
+    <label>Description</label>
+    <textarea formControlName="description"></textarea>
+    <ng-container *ngIf="group.get('description') as ctrl">
+      <ng-container *ngIf="ctrl.errors as errors">
+          <div class="errors" *ngIf="ctrl.touched">
+            <div *ngIf="errors['required'] as err">Required</div>
+            <div *ngIf="errors['minLength'] as err">Not long enough </div>
+            <div *ngIf="errors['minWords'] as err">words: {{err.actualWords}}/{{err.requiredWords}}</div>
+          </div>
+      </ng-container>
+    </ng-container>
+  </div>
+
+  <div formGroupName="address">
+    <div class="field">
+      <label>Street</label>
+      <input type="text" formControlName="street">
+    </div>
+    <div class="field">
+      <label>City</label>
+      <select formControlName="city">
+        <option value="haifa">Haifa</option>
+        <option value="telaviv">Tel Aviv</option>
+        <option value="faraway">Eilat</option>
+        <option value="London">London</option>
+      </select>
+    </div>
+  </div>
+
+  <h4>Children</h4>
+  <div formArrayName="children">
+    <div class="field" *ngFor="let ctrl of getChildrenArray().controls; let i = index">
+      <input type="text" [formControl]="ctrl">
+      <button (click)="removeChild(i)">-</button>
+    </div>
+    <button (click)="addNewChild()">+</button>
+  </div>
+
+</div>
+
+<button [disabled]="!group.valid">Submit</button>
+<button (click)="setSomeData()">Create Some Data</button>
+
+<hr>
+
+<pre>value: {{group.value | json}}</pre>
+<pre>errors: {{group.get('description').errors | json}}</pre>
