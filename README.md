@@ -30,6 +30,7 @@ These Videos repeat several chapters of the course, you can use them to reinforc
 
 # Final Project
 * [Todo - App](https://github.com/kobi2294/AngularSamples/tree/master/src/todo-app)
+* [Video Solution](https://www.dropbox.com/s/caw87ap23y3b2ew/TodoApp.mp4?dl=0)
     
 # Extras
 - [Recommended VS Code Extensions](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Recommended-Extensions)
