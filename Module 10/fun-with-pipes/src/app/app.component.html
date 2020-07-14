@@ -1,0 +1,21 @@
+<h1>Fun with angular pipes</h1>
+
+<h3>Later: Fun with Directives!</h3>
+
+<ul>
+    <li *ngFor="let item of (colors|filter:'ee')">
+        {{item}}
+    </li>
+</ul>
+
+<button (click)="modifyArray()">Modify</button>
+
+<hr>
+
+{{txt | reverse | titlecase}}
+
+<hr>
+Today is: {{today | date:'dd/MM/yyyy'}}
+
+the object is: <pre>{{stam | json}}</pre>
+<hr>

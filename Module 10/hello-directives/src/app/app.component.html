@@ -1,0 +1,54 @@
+<h1  x class="bla">Welcome to directives</h1>
+
+<hr>
+
+<app-expander>
+  <h1>
+    <button appToggle>Toggle</button>
+    My Expander
+  </h1>
+  <p>
+
+    This is the text inside the expander
+  </p>
+  <app-expander>
+    <h1>
+      <button appToggle>Toggle</button>
+      My Inner Expander
+    </h1>
+    <p>
+  
+      This is the text inside the expander
+    </p>
+  </app-expander>
+  
+</app-expander>
+
+<hr>
+
+<input type="text">
+
+<input appNoSpace type="text">
+
+<input appNoSpace type="search">
+
+<h2 appHighlight (acknowledged)="logSomething('h2 acknowledged')">Attribute Directives</h2>
+
+<h3 class="bla">Our agenda</h3>
+
+
+<kobi></kobi>
+
+<table>
+  <app-my-row></app-my-row>
+  <app-my-row></app-my-row>
+  <app-my-row></app-my-row>
+</table>
+
+<ul>
+  <li x>Element Directives</li>
+  <li appHighlight="cyan">Renderer</li>
+  <li>Host Bindling and Listener</li>
+  <li>Selectors</li>
+  <li appHighlight>Inputs and Outputs</li>
+</ul>
