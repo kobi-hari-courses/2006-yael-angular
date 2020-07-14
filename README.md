@@ -13,6 +13,8 @@ and also - through `Whatsapp`
 * [Module 06 - Promises and RxJS](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-06-Promises-and-RxJS-part-1)
 * [Module 07 - RxJS Operators](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-07---RxJS-operators)
 * [Module 08 - The Router](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-08---The-Router)
+* [Module 09 - Reactive Forms](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-09-Reactive-Forms)
+* [Module 10 - Pipes and Directives](https://github.com/kobi2294/Course-062020-Yael-Angular/wiki/Module-10-Pipes-and-Directives)
 
 # Emphasize Videos
 These Videos repeat several chapters of the course, you can use them to reinforce you understanding of the topics
@@ -26,6 +28,8 @@ These Videos repeat several chapters of the course, you can use them to reinforc
 * [Exercise 1 - Video Solution](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
 * [Exercise 2 - Video Solution](https://www.dropbox.com/s/n9502wwpvlmrgbr/reactive%20pop%20quiz%20solution.mp4?dl=0)
 
+# Final Project
+* [Todo - App](https://github.com/kobi2294/AngularSamples/tree/master/src/todo-app)
     
 # Extras
 - [Recommended VS Code Extensions](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Recommended-Extensions)
